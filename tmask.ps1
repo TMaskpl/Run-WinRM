@@ -1,8 +1,8 @@
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
-choco install check-mk -f
-choco install python -f
-choco install sysinternals -f
+choco install check-mk -y
+choco install python -y
+choco install sysinternals -y
 
 Enable-PSRemoting –force
 
